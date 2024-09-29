@@ -1,4 +1,4 @@
-package com.ordbok.ordbokApp;
+package com.ordbok;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
