@@ -1,13 +1,14 @@
-package com.ordbok.ordbok;
+package com.ordbok;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration;
 
 @SpringBootApplication
-public class OrdbokAppApplication {
-
+public class OrdbokApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(OrdbokAppApplication.class, args);
-	}
+		SpringApplication.run(OrdbokApplication.class, args);
 
+	}
 }
