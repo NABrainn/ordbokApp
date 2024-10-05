@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "prod": "cd ../spring/src/main/resources/static && rm -f * && cd ../../../../../angular/dist/ordbok/browser && cp * ../../../../spring/src/main/resources/static/"
   },
   "private": true,
   "dependencies": {
