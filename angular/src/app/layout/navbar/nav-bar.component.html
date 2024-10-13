@@ -1,0 +1,56 @@
+<div class="navbar bg-primary">
+    <div class="navbar-start">
+        <button class="btn btn-ghost btn-md text-xl" routerLink="/">Ordbok</button>
+    </div>
+    <div class="navbar-center gap-2">
+        <button class="btn btn-ghost btn-md text-xl font-medium hover:text-secondary">
+            <fa-icon [icon]="['fas', 'book-open']" style="color: var(--accent)"></fa-icon>
+            <span>
+                <a href="/library">Library</a>
+            </span>
+        </button>
+        <button class="btn btn-ghost btn-md text-xl font-medium hover:text-secondary">
+            <fa-icon [icon]="['fas', 'book']" style="color: var(--accent)"></fa-icon>
+            <span>
+                <a href="/vocabulary">Vocabulary</a>
+            </span>
+        </button>
+        <button class="btn btn-ghost btn-md text-xl font-medium hover:text-secondary">
+            <fa-icon [icon]="['fas', 'comments']" style="color: var(--accent)"></fa-icon>
+            <span>
+                <a href="/forum">Forum</a>
+            </span>
+        </button>
+    </div>
+    <div class="navbar-end gap-2">
+        <div class="dropdown dropdown-end">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+                <div class="w-24 rounded-full">                
+                    <img src="placeholder.webp" alt="profile-image">
+                </div>
+            </div>
+            <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                <li>
+                    <a class="justify-between">
+                        <span>Profile</span>
+                        <span class="badge">New</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="justify-between">
+                        <span>Settings</span>
+                        <fa-icon [icon]="['fas', 'gear']"></fa-icon>
+                    </a>
+                </li>
+                <li>
+                    <a class="justify-between">
+                        <span>Logout</span>
+                        <fa-icon [icon]="['fas', 'right-from-bracket']" ></fa-icon>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
