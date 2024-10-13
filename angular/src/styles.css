@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary: #fef08a;
+    --secondary: #d97706;
+    --accent: #65a30d;
+}
