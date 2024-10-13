@@ -1,0 +1,25 @@
+.login-form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    width: 15%;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+}
+
+/* .login-form {
+    width: 40%;
+    margin: 0 auto;
+} */
+
+.login-form-submit-btn {
+    background-color: red;
+    padding: 0.5em 0;
+}
